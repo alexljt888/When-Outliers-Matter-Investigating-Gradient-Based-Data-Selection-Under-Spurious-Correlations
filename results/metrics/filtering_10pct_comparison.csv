@@ -1,0 +1,4 @@
+Method,Overall Accuracy (%),Worst-Group Accuracy (%)
+isolation,93.87426385463331,15.934065934065933
+random,93.8490964916696,19.230769230769234
+erm,93.87,17.03
