@@ -1,5 +1,8 @@
-spuco
 torch
 torchvision
 numpy
+pandas
 matplotlib==3.9.4
+Pillow
+ipykernel
+spuco

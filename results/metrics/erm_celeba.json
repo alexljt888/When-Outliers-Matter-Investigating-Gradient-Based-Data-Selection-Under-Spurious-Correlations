@@ -1,0 +1,30 @@
+{
+    "dataset": "CelebA",
+    "target": "Blond_Hair",
+    "spurious_attribute": "Male",
+    "architecture": "Frozen ResNet-18 + Linear Classifier",
+    "feature_dimension": 512,
+    "seed": 42,
+    "epochs": 20,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 512,
+    "checkpoint_selection": "minimum validation loss",
+    "best_epoch": 19,
+    "best_val_loss": 0.1533842868992323,
+    "validation": {
+        "overall_accuracy": 93.86923038204057,
+        "worst_group_accuracy": 17.032967032967033,
+        "best_group_accuracy": 99.60125664572257,
+        "accuracy_gap": 82.56828961275554,
+        "worst_group": 3,
+        "group_accuracies": {
+            "0": 94.96192149970709,
+            "1": 99.60125664572257,
+            "2": 78.9839944328462,
+            "3": 17.032967032967033
+        }
+    },
+    "training_time_seconds": 14.671456124982797
+}

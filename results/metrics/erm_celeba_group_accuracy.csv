@@ -1,0 +1,5 @@
+Group,Description,Samples,Accuracy (%)
+0,Non-blond / Non-male,8535,94.96192149970709
+1,Non-blond / Male,8276,99.60125664572257
+2,Blond / Non-male,2874,78.9839944328462
+3,Blond / Male,182,17.032967032967033

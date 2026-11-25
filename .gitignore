@@ -1,22 +1,24 @@
-# Python virtual environment
+# Python environment
 .venv/
 __pycache__/
 *.pyc
 
-# Downloaded datasets
+# Datasets and cached features
 data/
 
-# Jupyter temporary files
+# Jupyter
 .ipynb_checkpoints/
 
 # macOS
 .DS_Store
 
-# Trained model checkpoints
+# Model checkpoints
 *.pt
 *.pth
 
-# Experiment outputs
-results/models/
+# Archived MNIST dataset files
+archive/MNIST/
 
-260D_presentation guideline.pdf
+# Pretrained weights and model checkpoints
+*.pt
+*.pth
