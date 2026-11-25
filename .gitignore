@@ -1,0 +1,22 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded datasets
+data/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Trained model checkpoints
+*.pt
+*.pth
+
+# Experiment outputs
+results/models/
+
+260D_presentation guideline.pdf
