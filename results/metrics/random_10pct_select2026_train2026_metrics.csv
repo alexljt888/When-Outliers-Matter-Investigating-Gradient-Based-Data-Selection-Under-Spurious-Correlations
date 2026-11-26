@@ -1,0 +1,2 @@
+Filter Rate (%),Selection Seed,Training Seed,Training Samples,Best Epoch,Best Val Loss,Overall Accuracy (%),Worst-Group Accuracy (%),Training and Validation Seconds,G0 Accuracy (%),G1 Accuracy (%),G2 Accuracy (%),G3 Accuracy (%)
+10,2026,2026,146493,17,0.15362119941548935,93.7886948205567,15.384615384615385,38.852731199993286,94.5635618043351,99.63750604156597,79.61029923451636,15.384615384615385

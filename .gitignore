@@ -1,7 +1,12 @@
 # Python environment
 .venv/
+venv/
+env/
 __pycache__/
 *.pyc
+
+# PyCharm local project settings
+.idea/
 
 # Datasets and cached features
 data/
@@ -18,7 +23,3 @@ data/
 
 # Archived MNIST dataset files
 archive/MNIST/
-
-# Pretrained weights and model checkpoints
-*.pt
-*.pth

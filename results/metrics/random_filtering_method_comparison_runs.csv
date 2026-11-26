@@ -1,0 +1,22 @@
+Method,Source,Filter Rate (%),Seed,Overall Accuracy (%),Worst-Group Accuracy (%),Split
+Random,Local reproduction,5,42,93.84406301907686,18.681318681318682,validation
+Random,Local reproduction,5,123,93.81889565611316,15.934065934065933,validation
+Random,Local reproduction,5,2026,93.75849398500024,14.285714285714285,validation
+Random,Local reproduction,10,42,93.82896260129864,17.032967032967033,validation
+Random,Local reproduction,10,123,93.8490964916696,17.582417582417584,validation
+Random,Local reproduction,10,2026,93.7886948205567,15.384615384615385,validation
+Random,Local reproduction,20,42,93.83902954648413,17.582417582417584,validation
+Random,Local reproduction,20,123,93.81386218352041,18.681318681318682,validation
+Random,Local reproduction,20,2026,93.78366134796397,15.934065934065933,validation
+EPIC-inspired,Team reference,5,42,93.85916343685508,14.285714285714285,validation
+EPIC-inspired,Team reference,5,123,93.79372829314944,13.736263736263737,validation
+EPIC-inspired,Team reference,5,2026,93.81889565611316,14.285714285714285,validation
+EPIC-inspired,Team reference,10,42,93.84406301907686,14.835164835164836,validation
+EPIC-inspired,Team reference,10,123,93.93969899833895,17.582417582417584,validation
+EPIC-inspired,Team reference,10,2026,93.8490964916696,14.835164835164836,validation
+EPIC-inspired,Team reference,20,42,93.76856093018574,14.285714285714285,validation
+EPIC-inspired,Team reference,20,123,93.82896260129864,15.384615384615385,validation
+EPIC-inspired,Team reference,20,2026,93.763527457593,15.384615384615385,validation
+ERM,Team reference,0,42,93.80379523833493,15.934065934065933,validation
+ERM,Team reference,0,123,93.80882871092767,15.384615384615385,validation
+ERM,Team reference,0,2026,93.81889565611316,15.934065934065933,validation
