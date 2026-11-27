@@ -36,7 +36,7 @@
                     "2": 79.11157504059382,
                     "3": 15.934065934065933
                 },
-                "training_time_seconds_mean": 40.56267710000005
+                "training_time_seconds_mean": 37.78239010000349
             },
             "test": {
                 "overall_accuracy_mean": 94.26410179340748,
@@ -49,7 +49,7 @@
                     "2": 75.9005376344086,
                     "3": 20.0
                 },
-                "training_time_seconds_mean": 40.56267710000005
+                "training_time_seconds_mean": 37.78239010000349
             }
         },
         "DFR (single subset)": {
@@ -64,7 +64,7 @@
                     "2": 93.08745070749247,
                     "3": 80.58608058608058
                 },
-                "training_time_seconds_mean": 1.0432493666642888
+                "training_time_seconds_mean": 0.9925897000017964
             },
             "test": {
                 "overall_accuracy_mean": 87.1071702902181,
@@ -77,7 +77,7 @@
                     "2": 91.6263440860215,
                     "3": 78.33333333333333
                 },
-                "training_time_seconds_mean": 1.0432493666642888
+                "training_time_seconds_mean": 0.9925897000017964
             }
         },
         "DFR (10-subset ensemble)": {
@@ -92,7 +92,7 @@
                     "2": 94.94316863836697,
                     "3": 83.88278388278388
                 },
-                "training_time_seconds_mean": 10.225047233335014
+                "training_time_seconds_mean": 9.524720333327423
             },
             "test": {
                 "overall_accuracy_mean": 86.41585679457637,
@@ -105,7 +105,7 @@
                     "2": 94.07258064516128,
                     "3": 81.85185185185185
                 },
-                "training_time_seconds_mean": 10.225047233335014
+                "training_time_seconds_mean": 9.524720333327423
             }
         }
     },
