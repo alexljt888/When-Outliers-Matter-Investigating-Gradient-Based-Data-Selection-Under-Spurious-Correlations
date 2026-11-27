@@ -24,6 +24,34 @@
     "selected_standardize": true,
     "n_ensemble": 10,
     "results": {
+        "ERM": {
+            "val": {
+                "overall_accuracy_mean": 93.80882871092767,
+                "overall_accuracy_std": 0.008718230269135947,
+                "worst_group_accuracy_mean": 15.934065934065934,
+                "worst_group_accuracy_std": 0.5494505494505484,
+                "group_accuracies_mean": {
+                    "0": 94.79398554969733,
+                    "1": 99.60931206702111,
+                    "2": 79.11157504059382,
+                    "3": 15.934065934065933
+                },
+                "training_time_seconds_mean": 40.56267710000005
+            },
+            "test": {
+                "overall_accuracy_mean": 94.26410179340748,
+                "overall_accuracy_std": 0.03128443040976491,
+                "worst_group_accuracy_mean": 20.0,
+                "worst_group_accuracy_std": 0.5555555555555536,
+                "group_accuracies_mean": {
+                    "0": 96.07521927579263,
+                    "1": 99.73457199734571,
+                    "2": 75.9005376344086,
+                    "3": 20.0
+                },
+                "training_time_seconds_mean": 40.56267710000005
+            }
+        },
         "DFR (single subset)": {
             "val": {
                 "overall_accuracy_mean": 86.18143990872636,
@@ -36,7 +64,7 @@
                     "2": 93.08745070749247,
                     "3": 80.58608058608058
                 },
-                "training_time_seconds_mean": 0.9898465000005672
+                "training_time_seconds_mean": 1.0432493666642888
             },
             "test": {
                 "overall_accuracy_mean": 87.1071702902181,
@@ -49,7 +77,7 @@
                     "2": 91.6263440860215,
                     "3": 78.33333333333333
                 },
-                "training_time_seconds_mean": 0.9898465000005672
+                "training_time_seconds_mean": 1.0432493666642888
             }
         },
         "DFR (10-subset ensemble)": {
@@ -64,7 +92,7 @@
                     "2": 94.94316863836697,
                     "3": 83.88278388278388
                 },
-                "training_time_seconds_mean": 10.314377666659615
+                "training_time_seconds_mean": 10.225047233335014
             },
             "test": {
                 "overall_accuracy_mean": 86.41585679457637,
@@ -77,34 +105,11 @@
                     "2": 94.07258064516128,
                     "3": 81.85185185185185
                 },
-                "training_time_seconds_mean": 10.314377666659615
+                "training_time_seconds_mean": 10.225047233335014
             }
         }
     },
-    "erm_reference": {
-        "val": {
-            "overall_accuracy": 93.86923038204057,
-            "worst_group_accuracy": 17.582417582417584,
-            "worst_group": 3,
-            "group_accuracies": {
-                "0": 94.96192149970709,
-                "1": 99.58917351377478,
-                "2": 78.9839944328462,
-                "3": 17.582417582417584
-            }
-        },
-        "test": {
-            "overall_accuracy": 94.30417793808236,
-            "worst_group_accuracy": 20.555555555555554,
-            "worst_group": 3,
-            "group_accuracies": {
-                "0": 96.19125627111703,
-                "1": 99.66821499668215,
-                "2": 75.9274193548387,
-                "3": 20.555555555555554
-            }
-        }
-    },
+    "erm_reference": "retrained here for each seed with the epic_celeba.ipynb 3.9 multi-seed ERM procedure",
     "ablation_erm_standardized_val": {
         "overall_accuracy": 93.81889565611316,
         "worst_group_accuracy": 18.13186813186813,
