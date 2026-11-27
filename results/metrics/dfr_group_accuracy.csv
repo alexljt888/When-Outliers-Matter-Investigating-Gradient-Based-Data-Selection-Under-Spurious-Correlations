@@ -1,0 +1,57 @@
+method,seed,split,group,accuracy
+DFR (single subset),42,val,0,81.62858816637375
+DFR (single subset),42,val,1,87.4939584340261
+DFR (single subset),42,val,2,93.84133611691024
+DFR (single subset),42,val,3,81.31868131868131
+DFR (single subset),42,test,0,85.3179072386608
+DFR (single subset),42,test,1,87.5779694757797
+DFR (single subset),42,test,2,92.29838709677419
+DFR (single subset),42,test,3,77.77777777777779
+DFR (10-subset ensemble),42,val,0,81.53485647334506
+DFR (10-subset ensemble),42,val,1,85.50024166263896
+DFR (10-subset ensemble),42,val,2,94.88517745302714
+DFR (10-subset ensemble),42,val,3,84.61538461538461
+DFR (10-subset ensemble),42,test,0,84.4681068905498
+DFR (10-subset ensemble),42,test,1,86.48971466489715
+DFR (10-subset ensemble),42,test,2,94.23387096774194
+DFR (10-subset ensemble),42,test,3,82.77777777777777
+DFR (single subset),123,val,0,83.31575864089045
+DFR (single subset),123,val,1,87.95311744804253
+DFR (single subset),123,val,2,92.65831593597773
+DFR (single subset),123,val,3,79.12087912087912
+DFR (single subset),123,test,0,85.68649534145592
+DFR (single subset),123,test,1,88.12209688122097
+DFR (single subset),123,test,2,91.20967741935485
+DFR (single subset),123,test,3,75.55555555555556
+DFR (10-subset ensemble),123,val,0,81.2770943175161
+DFR (10-subset ensemble),123,val,1,85.77815369743837
+DFR (10-subset ensemble),123,val,2,95.09394572025052
+DFR (10-subset ensemble),123,val,3,81.86813186813187
+DFR (10-subset ensemble),123,test,0,84.40667554008395
+DFR (10-subset ensemble),123,test,1,86.70205706702056
+DFR (10-subset ensemble),123,test,2,93.79032258064515
+DFR (10-subset ensemble),123,test,3,81.11111111111111
+DFR (single subset),2026,val,0,83.14001171646163
+DFR (single subset),2026,val,1,87.05896568390527
+DFR (single subset),2026,val,2,92.76270006958941
+DFR (single subset),2026,val,3,81.31868131868131
+DFR (single subset),2026,test,0,86.12675335312788
+DFR (single subset),2026,test,1,87.21964167219642
+DFR (single subset),2026,test,2,91.37096774193549
+DFR (single subset),2026,test,3,81.66666666666667
+DFR (10-subset ensemble),2026,val,0,81.13649677797305
+DFR (10-subset ensemble),2026,val,1,85.81440309328178
+DFR (10-subset ensemble),2026,val,2,94.85038274182325
+DFR (10-subset ensemble),2026,val,3,85.16483516483517
+DFR (10-subset ensemble),2026,test,0,84.29405139756322
+DFR (10-subset ensemble),2026,test,1,86.70205706702056
+DFR (10-subset ensemble),2026,test,2,94.19354838709677
+DFR (10-subset ensemble),2026,test,3,81.66666666666667
+ERM,42,val,0,94.96192149970709
+ERM,42,val,1,99.58917351377478
+ERM,42,val,2,78.9839944328462
+ERM,42,val,3,17.582417582417584
+ERM,42,test,0,96.19125627111703
+ERM,42,test,1,99.66821499668215
+ERM,42,test,2,75.9274193548387
+ERM,42,test,3,20.555555555555554

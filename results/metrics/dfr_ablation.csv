@@ -1,0 +1,4 @@
+Model,Training data,Overall (%),Worst-group (%)
+ERM (raw features),Full,93.87,17.58
+ERM (standardized features),Full,93.82,18.13
+"DFR (single subset, seed 42)",Group-balanced,85.84,81.32

@@ -1,0 +1,119 @@
+{
+    "experiment": "DFR (Deep Feature Reweighting), last-layer retraining on group-balanced training subset",
+    "dataset": "CelebA",
+    "target": "Blond_Hair",
+    "spurious_attribute": "Male",
+    "uses_group_labels": true,
+    "feature_extractor": "ImageNet ResNet-18 (frozen)",
+    "classifier": "Linear(512, 2)",
+    "retraining_data": "group-balanced subset of the training split",
+    "examples_per_group": 1387,
+    "balanced_subset_size": 5548,
+    "seeds": [
+        42,
+        123,
+        2026
+    ],
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 512,
+    "epochs": 100,
+    "checkpoint_selection": "minimum validation loss",
+    "hyperparameter_selection": "mean validation worst-group accuracy over seeds",
+    "selected_weight_decay": 0.001,
+    "selected_standardize": true,
+    "n_ensemble": 10,
+    "results": {
+        "DFR (single subset)": {
+            "val": {
+                "overall_accuracy_mean": 86.18143990872636,
+                "overall_accuracy_std": 0.36357331536804455,
+                "worst_group_accuracy_mean": 80.58608058608058,
+                "worst_group_accuracy_std": 1.2689016905266457,
+                "group_accuracies_mean": {
+                    "0": 82.69478617457527,
+                    "1": 87.50201385532462,
+                    "2": 93.08745070749247,
+                    "3": 80.58608058608058
+                },
+                "training_time_seconds_mean": 0.9898465000005672
+            },
+            "test": {
+                "overall_accuracy_mean": 87.1071702902181,
+                "overall_accuracy_std": 0.1211985927370234,
+                "worst_group_accuracy_mean": 78.33333333333333,
+                "worst_group_accuracy_std": 3.093202423794458,
+                "group_accuracies_mean": {
+                    "0": 85.71038531108154,
+                    "1": 87.63990267639902,
+                    "2": 91.6263440860215,
+                    "3": 78.33333333333333
+                },
+                "training_time_seconds_mean": 0.9898465000005672
+            }
+        },
+        "DFR (10-subset ensemble)": {
+            "val": {
+                "overall_accuracy_mean": 85.13615543363368,
+                "overall_accuracy_std": 0.026634633422905746,
+                "worst_group_accuracy_mean": 81.3161491896114,
+                "worst_group_accuracy_std": 0.20203112136501408,
+                "group_accuracies_mean": {
+                    "0": 81.31614918961141,
+                    "1": 85.69759948445305,
+                    "2": 94.94316863836697,
+                    "3": 83.88278388278388
+                },
+                "training_time_seconds_mean": 10.314377666659615
+            },
+            "test": {
+                "overall_accuracy_mean": 86.41585679457637,
+                "overall_accuracy_std": 0.011568986458063481,
+                "worst_group_accuracy_mean": 81.85185185185185,
+                "worst_group_accuracy_std": 0.8486251286955206,
+                "group_accuracies_mean": {
+                    "0": 84.38961127606565,
+                    "1": 86.63127626631275,
+                    "2": 94.07258064516128,
+                    "3": 81.85185185185185
+                },
+                "training_time_seconds_mean": 10.314377666659615
+            }
+        }
+    },
+    "erm_reference": {
+        "val": {
+            "overall_accuracy": 93.86923038204057,
+            "worst_group_accuracy": 17.582417582417584,
+            "worst_group": 3,
+            "group_accuracies": {
+                "0": 94.96192149970709,
+                "1": 99.58917351377478,
+                "2": 78.9839944328462,
+                "3": 17.582417582417584
+            }
+        },
+        "test": {
+            "overall_accuracy": 94.30417793808236,
+            "worst_group_accuracy": 20.555555555555554,
+            "worst_group": 3,
+            "group_accuracies": {
+                "0": 96.19125627111703,
+                "1": 99.66821499668215,
+                "2": 75.9274193548387,
+                "3": 20.555555555555554
+            }
+        }
+    },
+    "ablation_erm_standardized_val": {
+        "overall_accuracy": 93.81889565611316,
+        "worst_group_accuracy": 18.13186813186813,
+        "worst_group": 3,
+        "group_accuracies": {
+            "0": 95.12595196250733,
+            "1": 99.52875785403576,
+            "2": 78.28810020876827,
+            "3": 18.13186813186813
+        }
+    }
+}
